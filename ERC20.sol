@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.6.12;
 
-import "../interfaces/IERC20.sol";
-import "../interfaces/Context.sol";
+import "./IERC20.sol";
+import "./Context.sol";
 
-import "../libraries/SafeMath.sol";
-import "../libraries/Address.sol";
-import "../libraries/Ownable.sol";
+import "./SafeMath.sol";
+import "./Address.sol";
+import "./Ownable.sol";
 
 /**
  * @dev Implementation of the {IERC20} interface.
