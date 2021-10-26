@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.6.12;
 
-import "./interfaces/IERC20.sol";
-import "./base/ERC20.sol";
+import "./IERC20.sol";
+import "./ERC20.sol";
 
 // RitzToken with Governance.
 contract RITZ is ERC20('Ritz Token', 'Ritz') {
